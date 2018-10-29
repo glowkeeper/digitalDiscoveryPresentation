@@ -16,7 +16,7 @@ _Source: [Bitnation](https://tinyurl.com/nktt7tx)_
 
 ## Table of Contents
 
-> + Blockchain Overview
+> + Blockchain Introduction
 > + Introduce Fake News Paper
 > + Demonstrate Blockchain Provenance
 > + Summarise the Use Case Demonstrated
@@ -28,6 +28,51 @@ _Source: [Bitnation](https://tinyurl.com/nktt7tx)_
 _Source: bitcoinspace.net_
 
 - - -
+
+## Blockchain - Table of Contents
+
+> + Technical Background
+> + Blockchain Overview
+> + Bitcoin
+> + Ethereum
+> + Summary
+
+## Technical Background
+
++ Cryptography
++ Peer-to-peer (P2P), Decentralised and Distributed Computer Systems
++ Consensus
+
+## Cryptography
+
+The mathematics of information security.
+
++ Public-key Cryptography (PKC) - A form of encryption that creates a public key, which is shared, widely, and a private key, which is known only to the owner
++ Cryptographic Hash Functions - Maps arbitrary data to a unique fixed-size string
++ Digital Signatures - Identity authentication that allows users to digitally sign their messages
+
+## Peer-to-peer (P2P), Decentralised and Distributed Computer Systems
+
++ P2P - A network where its participants are both resource providers and resource requesters
++ Decentralised
+	+ Architecturally
+	 	+ Fault tolerance
+		+ Attack resistance
+		+ Collusion resistance
+ 	+ Politically - Control is not ceded to one individual or organisation
++ Distributed - A decentralised system that is logically centralised
+
+## Consensus
+
+Protocols that define how global agreement is reached in a distributed system.
+
+## Blockchain Overview
+
++ A public asset ledger of propagated values, which are coalesced into blocks of transactions
++ Decentralised authority, so blockchains are _trustless_ -
++ Changes are tracked and write permissions are controlled by public key cryptography
++ Technically infeasible to make changes to transactions already on the blockchain
++ Hence, a blockchain represents a historical record of all transactions ever recorded by the network.
 
 ## Blockchain Transactions
 
@@ -87,20 +132,7 @@ Finally, the block is broadcast so that network nodes can decide on its validity
 
 _Source: bitcoin.org_
 
-## Bitcoin Consensus
 
-_Satoshi Nakamoto_, in the [original Bitcoin white paper](https://bitcoin.org/bitcoin.pdf "Bitcoin White Paper"), describes the consensus process by which the blockchain is formed:
-
-1. All nodes receive a broadcast of new transactions.
-2. Each node collects new transactions into a block.
-3. Each node (miner) tries to find a PoW for its block.
-4. When a node finds a PoW, it broadcasts the new block to all nodes.
-5. Nodes accept the block only if all of the transactions it contains are valid.
-They must not have been spent already.
-6. Nodes express their acceptance of the block by working on creating the
-next block.
-7. Nodes use the hash of the accepted block as the previous hash (thus forming
-the chain).
 
 ## The Blockchain
 
@@ -123,6 +155,89 @@ A blockchain represents an irrevocable representation of the truth because it's 
 The [Bitcoin Website FAQ](https://bitcoin.org/en/faq) puts it this way:
 
 _"Blockchains are the most prominent **triple entry bookkeeping system** in existence."_
+
+## Bitcoin
+
+![](images/bitcoinTransaction.jpg)
+
+_Source: Ariel Zambelich/Wired_
+
+- - -
+
+## Bitcoin Overview
+
+_"Bitcoin is a **consensus network** that enables a new payment system and a completely **digital money**. It is the first decentralised **peer-to-peer payment network** that is powered by its users with **no central authority** or middlemen. From a user perspective, Bitcoin is pretty much like **cash for the internet**. Bitcoin can also be seen as the most prominent **triple entry bookkeeping system** in existence."_
+
+_Bitcoin Website FAQ_
+
+## The Problems Addressed by Bitcoin
+
++ It obfuscates much of modern money's trust mechanisms
++ Cryptographic proofs allow parties to transact directly, thus removing the need for a third-parties to verify payments.
++ Cryptography also ensures authenticity. Hence, as opposed to its physical banknote counterparts, BTC suffers none of the issues of forgery
++ Distributed consensus solves the problem of double spending
++ Trusted identity gives the system a natural way of overcoming 'Sybil Attacks', where a single faulty entity can present multiple identities and control a substantial fraction of a system
++ Provides a solution to a conundrum in distributed computing, known as the _Byzantine Generals Problem_. Byzantine Fault Tolerant systems must reach dependable consensus, even under the circumstances where individual components have failed.
+
+## Bitcoin's Key Concepts
+
+
+
+## How does Bitcoin work?
+
+> + Paying with bitcoin means creating a record of the transaction in the **blockchain**
+> + The blockchain is a distributed, historical record of all Bitcoin transactions, recorded in **blocks**
+> + **Miners** on the network use their computing power to verify the transactions, grouping them into blocks
+> + Using the block transaction data as inputs, miners race to solve a computationally intensive cryptographic puzzle in order to win **new bitcoins**, hence Bitcoin is referrred to as a **cryptocurrency**
+> + Difficulty of the puzzle is automatically adjusted so that a new block is mined every **10mins**
+
+## Bitcoin Consensus
+
+_Satoshi Nakamoto_, in the [original Bitcoin white paper](https://bitcoin.org/bitcoin.pdf "Bitcoin White Paper"), describes the consensus process by which the blockchain is formed:
+
+1. All nodes receive a broadcast of new transactions.
+2. Each node collects new transactions into a block.
+3. Each node (miner) tries to find a PoW for its block.
+4. When a node finds a PoW, it broadcasts the new block to all nodes.
+5. Nodes accept the block only if all of the transactions it contains are valid.
+They must not have been spent already.
+6. Nodes express their acceptance of the block by working on creating the
+next block.
+7. Nodes use the hash of the accepted block as the previous hash (thus forming
+the chain).
+
+## How Is Bitcoin Different From the £?
+
+> + Digital only - No physical currency
+> + No central bank (no governmental control)
+> + No individual unit with identifiers (e.g. serial numbers)
+> + Automated control of money supply (capped to 21 million bitcoins)
+> + Trust-free system (no third parties required)
+> + Transactions are anonymous (but may be traceable)
+
+<div class="notes">
+Fiat currency is state backed currency, such as the $ or £.
+</div>
+
+## Bitcoin Software
+
++ Wallets / Clients (open source)
+	+ Connect to the network to process transactions
+	+ Manage bitcoins
+	+ Protect encryption key
++ Mining software (open source)
+	+ Generate new bitcoins
+	+ Process the blockchain
+
+
+## Ethereum
+
+Blah
+
+## Smart Contracts
+
++ Algorithms that provide a secure mechanism for electronic collaboration which does not rely upon a central authority for trust
++ Helps automate a system’s rule set via autonomous scripts that can represent verifiable application logic
 
 # Fake News
 
