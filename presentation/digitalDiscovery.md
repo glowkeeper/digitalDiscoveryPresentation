@@ -85,21 +85,14 @@ _Source: [Bitnation](https://tinyurl.com/nktt7tx)_
 
 - - -
 
-## Blockchains
-
-+ Blockchains are formed by blocks of information based on a chain of transactions - hence the name.
-+ The technology is independent of any controlling entity because nodes on its network are equally privileged.
-+ Blockchains also include numerous security measures; properties that result in a system ideally suited for _trusted cooperation_.
-
-(Trusted cooperation is a key component of my thesis, which asks: _how are blockchains the means by which we may collaborate?_)
-
 ## Blockchain's Key Features
 
-+ A public asset ledger of propagated values, which are coalesced into blocks of transactions
-+ Decentralised (P2P) authority
-+ Changes are tracked and write permissions are controlled by public key cryptography
-+ Technically infeasible to make changes to transactions already on the blockchain
-+ Hence, a blockchain represents a historical record of all transactions
++ **Data distribution** - A public asset ledger of propagated values, which are coalesced into blocks of transactions
++ **Distributed authority** - P2P decentralised network
++ **Use of cryptography** - Changes are tracked and write permissions are controlled by public key cryptography
++ **Programmability/automation** - e.g. smart contracts, of which [Provenator](https://github.com/glowkeeper/Provenator) takes advantage
+
+Hence, blockchain architecture includes numerous security measures, properties that result in a system ideally suited for _trusted cooperation_. Indeed, _trusted cooperation_ is a key component of my thesis, which asks: _how are blockchains the means by which we may collaborate?_
 
 # Bitcoin
 
@@ -224,19 +217,29 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 
 ## Conclusions
 
-> + Overview of blockchains, and two of the technology's implementations: [Bitcoin](https://bitcoin.org/en/) and [Ethereum](https://www.ethereum.org/)
+> + Quick intro' of the key technology behind blockchains - Cryptography, distributed systems and consensus
+> + Overview of blockchains - Data distribution, distributed authority, use of cryptography, programmability
+> + Bitcoin - transactions, blocks, mining
+> + Ethereum - Smart contracts
+
+## Conclusions (cont'd)
+
 > + Fake News reached a crescendo during the 2016 US Presidential Election
 > + Introduced [Provenator](https://github.com/glowkeeper/Provenator), a prototype dApp for proving the origins of digital media
 > + Conclusion - the trust mechanisms of blockchain technology can show the provenance of any source of digital media
 > + However, [Provenator](https://github.com/glowkeeper/Provenator) is incapable of proving the authenticity of a news story as a whole. That takes human skills
 
-## Presentation
+## Future Work
+
+![](images/provenatorFuture.png)
+
+## Appendix I
 
 This presentation is available at [GitHub](https://github.com/glowkeeper/digitalDiscoveryPresentation).
 
 The presentation is just HTML5, so it runs in a browser, as though it's a traditional website. It was produced with 100% open source tools, including [Pandoc](https://pandoc.org/) and [reveal.js](https://github.com/hakimel/reveal.js/ "reveal.js"), as well as an open source markup language, [Markdown](https://daringfireball.net/projects/markdown/).
 
-## Open Source
+## Appendix II
 
 + Support open source! Open data! Open standards in general!
 + Watch, Star, Fork [Provenator](https://github.com/glowkeeper/Provenator) (_please_)
