@@ -73,7 +73,7 @@ The mathematics of information security.
  	+ Politically - Control is not ceded to one individual or organisation
 + **Distributed** - A decentralised system that is logically centralised
 
-## Consensus
+## Consensus
 
 Protocols that define how global agreement is reached in a distributed system. Thus, they address the _Byzantine Generals Problem_.
 
@@ -92,7 +92,9 @@ _Source: [Bitnation](https://tinyurl.com/nktt7tx)_
 + **Use of cryptography** - Changes are tracked and write permissions are controlled by public key cryptography
 + **Programmability/automation** - e.g. smart contracts, of which [Provenator](https://github.com/glowkeeper/Provenator) takes advantage
 
-Hence, blockchain architecture includes numerous security measures, properties that result in a system ideally suited for _trusted cooperation_. Indeed, _trusted cooperation_ is a key component of my thesis, which asks: _how are blockchains the means by which we may collaborate?_
+## Blockchain's Key Features (cont'd)
+
+**Data distribution** + **Distributed authority** + **Use of cryptography** + **Programmability/automation** = a system ideally suited for _trusted cooperation_; a key component of my thesis, which asks: _how are blockchains the means by which we may collaborate?_
 
 # Bitcoin
 
@@ -102,23 +104,13 @@ _Source: Ariel Zambelich/Wired_
 
 - - -
 
-## Bitcoin Overview
+## Bitcoin Introduction
 
 [Bitcoin](https://bitcoin.org/en/) was first introduced by Satoshi Nakamoto's white paper describing _a peer-to-peer electronic cash system_.
 
 _"[Bitcoin](https://bitcoin.org/en/) is a **consensus network** that enables a new payment system and a completely **digital money**. It is the first decentralised **peer-to-peer payment network** that is powered by its users with **no central authority** or middlemen. From a user perspective, [Bitcoin](https://bitcoin.org/en/) is pretty much like **cash for the internet**. [Bitcoin](https://bitcoin.org/en/) can also be seen as the most prominent **triple entry bookkeeping system** in existence."_
 
 _Bitcoin Website FAQ_
-
-## Bitcoin Overview (cont'd)
-
-+ Referred to as _cryptocurrency_ because it is a form of electronic currency that relies on cryptographic techniques to prove identity and authenticity and to enforce read and write access to the [Bitcoin](https://bitcoin.org/en/) network.
-+ The basic unit of account on the system is also called _Bitcoin_, and the smallest unit amount within the [Bitcoin](https://bitcoin.org/en/) network is the _Satoshi_.
-
-## Bitcoin Overview (cont'd)
-
-+ [Bitcoin](https://bitcoin.org/en/) is a P2P network whose overriding purpose is the propagation of any _transactions_ requiring validation.
-+ Transactions are owners of Satoshi transferring ownership of their coins to other users. Those new owners can, in turn, create another transaction that authorises the ongoing transfer. Thus, a chain of ownership, _a blockchain_, is formed.
 
 ## The Problems Addressed by Bitcoin
 
@@ -129,11 +121,18 @@ _Bitcoin Website FAQ_
 + Trusted identity gives the system a natural way of overcoming 'Sybil Attacks'
 + Provides a solution to the _Byzantine Generals Problem_
 
+## Bitcoin Overview
+
++ Referred to as _cryptocurrency_ because it is a form of electronic currency that relies on cryptographic techniques to prove identity and authenticity and to enforce read and write access to the [Bitcoin](https://bitcoin.org/en/) network.
++ The basic unit of account on the system is also called _Bitcoin_, and the smallest unit amount within the [Bitcoin](https://bitcoin.org/en/) network is the _Satoshi_.
+
 ## How does Bitcoin work?
 
-> + Paying with [Bitcoin](https://bitcoin.org/en/) means creating a record of the _transaction_ on the blockchain
-> + _Miners_ on the network use their computing power to solve a computationally intensive cryptographic puzzle, thereby verifying the transactions
-> + The blockchain is a distributed, historical record of all [Bitcoin](https://bitcoin.org/en/) transactions, recorded in _blocks_
+> + [Bitcoin](https://bitcoin.org/en/) is a P2P network whose overriding purpose is the propagation of any _transactions_ requiring validation
+> + _Miners_ on the network use computing power to solve computationally intensive cryptographic puzzles that verify _blocks_ of transactions
+> + Transactions are owners of Satoshi transferring their ownership. New owners can authorises those transactions' ongoing transfer, forming a chain of ownership - a _blockchain_
+> + Hence, paying with [Bitcoin](https://bitcoin.org/en/) means creating a record of a _transaction_
+> + Thus, the _blockchain_ is a distributed, historical record of all [Bitcoin](https://bitcoin.org/en/) transactions
 
 ## Bitcoin Transactions
 
@@ -217,7 +216,7 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 
 ## Conclusions
 
-> + Quick intro' of the key technology behind blockchains - Cryptography, distributed systems and consensus
+> + Quick intro' to the key technology behind blockchains - Cryptography, distributed systems and consensus algorithms
 > + Overview of blockchains - Data distribution, distributed authority, use of cryptography, programmability
 > + Bitcoin - transactions, blocks, mining
 > + Ethereum - Smart contracts
@@ -227,7 +226,6 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 > + Fake News reached a crescendo during the 2016 US Presidential Election
 > + Introduced [Provenator](https://github.com/glowkeeper/Provenator), a prototype dApp for proving the origins of digital media
 > + Conclusion - the trust mechanisms of blockchain technology can show the provenance of any source of digital media
-> + However, [Provenator](https://github.com/glowkeeper/Provenator) is incapable of proving the authenticity of a news story as a whole. That takes human skills
 
 ## Future Work
 
@@ -235,15 +233,15 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 
 ## Appendix I
 
-This presentation is available at [GitHub](https://github.com/glowkeeper/digitalDiscoveryPresentation).
-
-The presentation is just HTML5, so it runs in a browser, as though it's a traditional website. It was produced with 100% open source tools, including [Pandoc](https://pandoc.org/) and [reveal.js](https://github.com/hakimel/reveal.js/ "reveal.js"), as well as an open source markup language, [Markdown](https://daringfireball.net/projects/markdown/).
++ Watch, Star, Fork [https://github.com/glowkeeper/Provenator](https://github.com/glowkeeper/Provenator) (_please_)
++ Support open source! Open data! Open standards in general!
 
 ## Appendix II
 
-+ Support open source! Open data! Open standards in general!
-+ Watch, Star, Fork [Provenator](https://github.com/glowkeeper/Provenator) (_please_)
+This presentation is available at [https://github.com/glowkeeper/digitalDiscoveryPresentation](https://github.com/glowkeeper/digitalDiscoveryPresentation).
+
+The presentation is just HTML5, so it runs in a browser, as though it's a traditional website. It was produced with 100% open source tools, including [Pandoc](https://pandoc.org/) and [reveal.js](https://github.com/hakimel/reveal.js/ "reveal.js"), as well as an open source markup language, [Markdown](https://daringfireball.net/projects/markdown/).
 
 # Thank You
 
-Steven Huckle - s.huckle@sussex.ac.uk
+Steven Huckle - s.huckle@sussex.ac.uk - [https://glowkeeper.github.io](https://glowkeeper.github.io/)
