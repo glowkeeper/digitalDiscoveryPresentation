@@ -225,15 +225,23 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 
 > + Fake News reached a crescendo during the 2016 US Presidential Election
 > + Introduced [Provenator](https://github.com/glowkeeper/Provenator), a prototype dApp for proving the origins of digital media
-> + Conclusion - the trust mechanisms of blockchain technology can show the provenance of any source of digital media
+> + Conclusion - the trust mechanisms of blockchain technology can show the provenance of any source of digital media. Read more conclusions in [Fake News - a Technological Approach to Proving Provenance Using Blockchains](https://doi.org/10.1089/big.2017.0071)
 
 ## Future Work
 
 ![](images/provenatorFuture.png)
 
+## Future Work (cont'd)
+
+Humanitarian Aid Reporting - [https://github.com/glowkeeper/ReportAid](https://github.com/glowkeeper/Provenator).
+
+## Future Work (cont'd)
+
+Distributed currency exchanging, using [Ox protocol](https://0xproject.com/). [https://github.com/glowkeeper/Micromorpher](https://github.com/glowkeeper/Micromorpher).
+
 ## Appendix I
 
-+ Watch, Star, Fork [https://github.com/glowkeeper/Provenator](https://github.com/glowkeeper/Provenator) (_please_)
++ Please Watch, Star, Fork [https://github.com/glowkeeper/Provenator](https://github.com/glowkeeper/Provenator), [https://github.com/glowkeeper/ReportAid](https://github.com/glowkeeper/Provenator) and [https://github.com/glowkeeper/Micromorpher](https://github.com/glowkeeper/Micromorpher)
 + Support open source! Open data! Open standards in general!
 
 ## Appendix II
