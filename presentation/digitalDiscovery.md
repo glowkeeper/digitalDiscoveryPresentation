@@ -229,7 +229,8 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 
 > + Quick intro' to the key technology behind blockchains - Cryptography, distributed systems and consensus algorithms
 > + Overview of blockchains - Data distribution, distributed authority, use of cryptography, programmability
-> + Bitcoin - transactions, blocks, mining
+> + [Bitcoin](https://bitcoin.org/en/) is _deflationary_ digital cash
+> + [Bitcoin](https://bitcoin.org/en/) - transactions, blocks, mining
 > + Ethereum - Smart contracts
 
 ## Conclusions (cont'd)
