@@ -104,7 +104,7 @@ _Source: Ariel Zambelich/Wired_
 
 - - -
 
-## Bitcoin Introduction
+## Introduction
 
 [Bitcoin](https://bitcoin.org/en/) was first introduced by Satoshi Nakamoto's white paper describing _a peer-to-peer electronic cash system_.
 
@@ -121,10 +121,11 @@ _Bitcoin Website FAQ_
 + Trusted identity gives the system a natural way of overcoming 'Sybil Attacks'
 + Provides a solution to the _Byzantine Generals Problem_
 
-## Bitcoin Overview
+## Overview
 
-+ Referred to as _cryptocurrency_ because it is a form of electronic currency that relies on cryptographic techniques to prove identity and authenticity and to enforce read and write access to the [Bitcoin](https://bitcoin.org/en/) network.
-+ The basic unit of account on the system is also called _Bitcoin_, and the smallest unit amount within the [Bitcoin](https://bitcoin.org/en/) network is the _Satoshi_.
++ Referred to as _cryptocurrency_ because it is a form of electronic currency that relies on cryptographic techniques to prove identity and authenticity and to enforce read and write access to the [Bitcoin](https://bitcoin.org/en/) network
++ The basic unit of account on the system is also called _Bitcoin_, and the smallest unit amount within the [Bitcoin](https://bitcoin.org/en/) network is the _Satoshi_
++ There will be 21 million Bitcoins in circulation. Therefore, unlike the US$, [Bitcoin](https://bitcoin.org/en/) is _deflationary_   
 
 ## How does Bitcoin work?
 
@@ -134,7 +135,7 @@ _Bitcoin Website FAQ_
 > + Hence, paying with [Bitcoin](https://bitcoin.org/en/) means creating a record of a _transaction_
 > + Thus, the _blockchain_ is a distributed, historical record of all [Bitcoin](https://bitcoin.org/en/) transactions
 
-## Bitcoin Transactions
+## Transactions
 
 ![](images/BTCTransactions.png)
 
@@ -155,21 +156,31 @@ Writing individual transactions to the blockchain would be inefficient. Hence, [
 
 _Source: [Bitcoin: A Peer-to-Peer Electronic Cash System by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf "Bitcoin White Paper")_
 
-## Bitcoin Mining
+## Mining
 
 [Bitcoin](https://bitcoin.org/en/) validates blocks of transactions using _Proof of Work_ consensus. That's a scheme based on a _SHA-256_ hashing algorithm, which produces a hash with a value less than a difficulty target. It takes approximately ten minutes to calculating the hash, a process known as _mining_ because the network rewards the P2P node that successfully solves that problem with 'mined' [Bitcoin](https://bitcoin.org/en/). Hence, mining is also the process by which the system adds new coins to the network.
 
-## Bitcoin Mining (cont'd)
+## Mining (cont'd)
 
 The validation process produces a block that contains a _timestamp_, a _nonce_ and the root hash of a _Merkle Tree_ of all transactions for that block.
 
-## Bitcoin Mining (cont'd)
+## Mining (cont'd)
 
 Finally, the block is broadcast so that network nodes can decide on its validity.
 
 ![](images/pooledMining.png)
 
 _Source: bitcoin.org_
+
+## Bitcoin Governance
+
+[Bitcoin](https://bitcoin.org/en/) governance is the mechanism for introducing new software to the network. There is no managing organisation, so upgrades are implemented through Bitcoin Improvement Proposals (BIPs). Despite Bitcoin's 'new age' persona, the BIP process is, actually, quite conservative.
+
+## Bitcoin Governance (cont'd)
+
+![](images/BIPWorkflow.png)
+
+_Source Bitcoin Wiki_
 
 # Ethereum
 
@@ -181,7 +192,7 @@ _Source: https://twitter.com/ethereum_
 
 ## Ethereum Overview
 
-Similar to [Bitcoin](https://bitcoin.org/en/), [Ethereum](https://www.ethereum.org/) is an open-source, public, blockchain-based system. It is technology that also enables smart contract exchange, a capability which is exploited  by my Fake News app', [Provenator](https://github.com/glowkeeper/Provenator).
+[Ethereum](https://www.ethereum.org/) is an open-source, public, blockchain-based system. It is technology that also enables smart contract exchange, a capability which is exploited  by my Fake News app', [Provenator](https://github.com/glowkeeper/Provenator).
 
 ## Smart Contracts
 
