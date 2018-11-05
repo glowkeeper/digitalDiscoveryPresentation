@@ -7,6 +7,7 @@ by Steven Huckle - s.huckle@sussex.ac.uk
 ## Objectives
 
 + Provide an Overview of Blockchain Technology
++ Discuss Bitcoin and Ethereum
 + Introduce Fake News and How Blockchains May Help Overcome the Issue
 + Demonstrate Blockchain Provenance
 
@@ -14,6 +15,7 @@ by Steven Huckle - s.huckle@sussex.ac.uk
 
 + Me
 + Blockchain Overview
++ Bitcoin and Ethereum
 + Fake News and [Provenator](https://github.com/glowkeeper/Provenator)
 + Summary
 
@@ -48,7 +50,7 @@ _Source: [Open Clip Art](https://openclipart.org/detail/271913/full-steam)_
 
 - - -
 
-## Key Technology
+## Blockchain's Key Technology
 
 + Cryptography
 + Distributed Computer Systems
@@ -178,6 +180,8 @@ _Source: bitcoin.org_
 
 ## Bitcoin Governance (cont'd)
 
+The BIP Process.
+
 ![](images/BIPWorkflow.png)
 
 _Source Bitcoin Wiki_
@@ -215,7 +219,17 @@ My article, [Fake News - a Technological Approach to Proving Provenance Using Bl
 
 Demonstration of [Provenator](https://github.com/glowkeeper/Provenator).
 
-- - -
+## Future Work
+
+![](images/provenatorFuture.png)
+
+## Future Work (cont'd)
+
+Humanitarian Aid Reporting - [https://github.com/glowkeeper/ReportAid](https://github.com/glowkeeper/Provenator).
+
+## Future Work (cont'd)
+
+Distributed currency exchange, using [Ox protocol](https://0xproject.com/). [https://github.com/glowkeeper/Micromorpher](https://github.com/glowkeeper/Micromorpher).
 
 # Wrapping Up
 
@@ -229,27 +243,19 @@ _Source: [Open Clipart](https://openclipart.org/detail/220024/parcel-bw)_
 
 > + Quick intro' to the key technology behind blockchains - Cryptography, distributed systems and consensus algorithms
 > + Overview of blockchains - Data distribution, distributed authority, use of cryptography, programmability
-> + [Bitcoin](https://bitcoin.org/en/) is _deflationary_ digital cash
-> + [Bitcoin](https://bitcoin.org/en/) - transactions, blocks, mining
-> + Ethereum - Smart contracts
 
 ## Conclusions (cont'd)
 
+> + [Bitcoin](https://bitcoin.org/en/) is _deflationary_ digital cash
+> + [Bitcoin](https://bitcoin.org/en/) transactions, blocks, mining
+> + [Bitcoin](https://bitcoin.org/en/) governance
+
+## Conclusions (cont'd)
+
+> + Ethereum - Smart contracts
 > + Fake News reached a crescendo during the 2016 US Presidential Election
 > + Introduced [Provenator](https://github.com/glowkeeper/Provenator), a prototype dApp for proving the origins of digital media
 > + Conclusion - the trust mechanisms of blockchain technology can show the provenance of any source of digital media. Read more conclusions in [Fake News - a Technological Approach to Proving Provenance Using Blockchains](https://doi.org/10.1089/big.2017.0071)
-
-## Future Work
-
-![](images/provenatorFuture.png)
-
-## Future Work (cont'd)
-
-Humanitarian Aid Reporting - [https://github.com/glowkeeper/ReportAid](https://github.com/glowkeeper/Provenator).
-
-## Future Work (cont'd)
-
-Distributed currency exchanging, using [Ox protocol](https://0xproject.com/). [https://github.com/glowkeeper/Micromorpher](https://github.com/glowkeeper/Micromorpher).
 
 ## Appendix I
 
